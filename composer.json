@@ -1,0 +1,18 @@
+{
+    "name": "simondebruijn/typed-uuid",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "Simondebruijn\\TypesUuid\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "simon-debruijn",
+            "email": "simon.debruijn@hotmail.com"
+        }
+    ],
+    "require": {
+        "ramsey/uuid": "^4.7"
+    }
+}
