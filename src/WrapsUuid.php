@@ -2,19 +2,16 @@
 
 declare(strict_types=1);
 
-namespace Simondebruijn\TypesUuid;
+namespace Simondebruijn\TypedUuid;
 
 use Ramsey\Uuid\Uuid;
 use Ramsey\Uuid\UuidInterface;
 
 trait WrapsUuid
 {
-    private readonly UuidInterface $uuid;
-
-    private function __construct(UuidInterface $uuid)
-    {
-        $this->uuid = $uuid;
-    }
+    private function __construct(
+        private readonly UuidInterface $uuid
+    ) {}
 
     public static function create(?UuidInterface $uuid = null): self
     {

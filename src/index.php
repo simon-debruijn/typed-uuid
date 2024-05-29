@@ -5,10 +5,10 @@ declare(strict_types=1);
 require __DIR__ . '/../vendor/autoload.php';
 
 use Ramsey\Uuid\Uuid;
-use Simondebruijn\TypesUuid\OrganizerId;
-use Simondebruijn\TypesUuid\OrganizerIdReceiver;
-use Simondebruijn\TypesUuid\UuidReceiver;
-// use \Simondebruijn\TypesUuid\UserId;
+use Simondebruijn\TypedUuid\OrganizerId;
+use Simondebruijn\TypedUuid\OrganizerIdReceiver;
+use Simondebruijn\TypedUuid\UuidReceiver;
+// use \Simondebruijn\TypedUuid\UserId;
 
 $organizerId1 = OrganizerId::create();
 $organizerId2 = OrganizerId::createFromString("44760acc-180a-44fa-a5f3-67f6c092f9a7");

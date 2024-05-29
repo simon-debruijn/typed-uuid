@@ -2,7 +2,9 @@
 
 declare(strict_types=1);
 
-namespace Simondebruijn\TypesUuid;
+namespace Simondebruijn\TypedUuid;
+
+use Simondebruijn\TypedUuid\WrapsUuid;
 
 final class OrganizerId
 {

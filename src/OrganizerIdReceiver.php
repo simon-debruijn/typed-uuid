@@ -2,7 +2,7 @@
 
 declare(strict_types=1);
 
-namespace Simondebruijn\TypesUuid;
+namespace Simondebruijn\TypedUuid;
 
 final class OrganizerIdReceiver
 {
